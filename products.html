@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse all products at TechStore. Electronics, fashion, and accessories.">
+  
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%232563eb' rx='20' width='100' height='100'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-size='60' fill='white'>T</text></svg>">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>Products | TechStore</title>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="/" class="logo">
+        <div class="logo-icon">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+          </svg>
+        </div>
+        TechStore
+      </a>
+      
+      <nav class="nav">
+        <a href="/" class="nav-link">Home</a>
+        <a href="products.html" class="nav-link active">Products</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      
+      <div class="header-actions">
+        <button class="cart-button" data-cart-toggle aria-label="Shopping Cart">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+          </svg>
+          <span class="cart-count" style="display: none;">0</span>
+        </button>
+        <button class="mobile-menu-btn" aria-label="Toggle Menu">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation -->
+  <nav class="mobile-nav">
+    <div class="mobile-nav-links">
+      <a href="/" class="mobile-nav-link">Home</a>
+      <a href="products.html" class="mobile-nav-link">Products</a>
+      <a href="about.html" class="mobile-nav-link">About</a>
+      <a href="contact.html" class="mobile-nav-link">Contact</a>
+      <a href="cart.html" class="mobile-nav-link">Cart</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="page">
+    <!-- Breadcrumb -->
+    <div class="container">
+      <nav class="breadcrumb">
+        <a href="/">Home</a>
+        <span class="breadcrumb-separator">/</span>
+        <span class="breadcrumb-current">Products</span>
+      </nav>
+    </div>
+
+    <!-- Products Section -->
+    <section class="products-section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h1 class="section-title">All Products</h1>
+            <p class="section-subtitle" id="results-count">Loading...</p>
+          </div>
+          <div style="display: flex; gap: 1rem; align-items: center;">
+            <div class="search-container">
+              <svg class="search-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+              </svg>
+              <input 
+                type="search" 
+                id="search-input" 
+                class="search-input" 
+                placeholder="Search products..."
+                aria-label="Search products"
+              >
+            </div>
+            <select id="sort-select" class="sort-select" aria-label="Sort products">
+              <option value="featured">Featured</option>
+              <option value="newest">Newest</option>
+              <option value="price-asc">Price: Low to High</option>
+              <option value="price-desc">Price: High to Low</option>
+              <option value="rating">Highest Rated</option>
+            </select>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 2rem;">
+          <!-- Filters Sidebar -->
+          <aside class="filters-sidebar">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+              <h2 style="font-size: 1.125rem; font-weight: 600;">Filters</h2>
+              <button id="clear-filters" class="btn btn-sm btn-secondary">Clear All</button>
+            </div>
+
+            <!-- Category Filter -->
+            <div class="filter-group">
+              <h3 class="filter-title">Category</h3>
+              <div class="filter-options" id="category-filters">
+                <!-- Categories loaded dynamically -->
+              </div>
+            </div>
+
+            <!-- Brand Filter -->
+            <div class="filter-group">
+              <h3 class="filter-title">Brand</h3>
+              <div class="filter-options" id="brand-filters">
+                <!-- Brands loaded dynamically -->
+              </div>
+            </div>
+
+            <!-- Price Filter -->
+            <div class="filter-group">
+              <h3 class="filter-title">Price Range</h3>
+              <div class="price-range" id="price-filter">
+                <!-- Price range loaded dynamically -->
+              </div>
+            </div>
+          </aside>
+
+          <!-- Products Grid -->
+          <div style="flex: 1;">
+            <div class="products-grid" id="products-grid">
+              <!-- Products loaded dynamically -->
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination" id="pagination">
+              <!-- Pagination loaded dynamically -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="footer-logo">
+            <div class="logo-icon">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+              </svg>
+            </div>
+            TechStore
+          </a>
+          <p class="footer-description">
+            Your destination for premium electronics, fashion, and lifestyle products.
+          </p>
+        </div>
+        <div class="footer-column">
+          <h4>Shop</h4>
+          <ul class="footer-links">
+            <li><a href="products.html">All Products</a></li>
+            <li><a href="products.html?category=electronics">Electronics</a></li>
+            <li><a href="products.html?category=fashion">Fashion</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Support</h4>
+          <ul class="footer-links">
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Shipping Info</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2024 TechStore. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Cart Sidebar -->
+  <div class="cart-overlay"></div>
+  <aside class="cart-sidebar">
+    <div class="cart-header">
+      <h2 class="cart-title">Shopping Cart</h2>
+      <button class="cart-close" aria-label="Close cart">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+    <div class="cart-items"></div>
+    <div class="cart-footer"></div>
+  </aside>
+
+  <!-- Toast Container -->
+  <div class="toast-container"></div>
+
+  <!-- JavaScript -->
+  <script src="js/utils.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
