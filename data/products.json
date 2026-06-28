@@ -1,0 +1,446 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Premium Wireless Headphones",
+      "slug": "premium-wireless-headphones",
+      "price": 299.99,
+      "originalPrice": 399.99,
+      "category": "electronics",
+      "brand": "AudioMax",
+      "rating": 4.8,
+      "reviews": 256,
+      "stock": 15,
+      "featured": true,
+      "new": true,
+      "description": "Experience unparalleled audio quality with our Premium Wireless Headphones. Featuring active noise cancellation, 40-hour battery life, and premium memory foam ear cushions for all-day comfort.",
+      "features": [
+        "Active Noise Cancellation",
+        "40-Hour Battery Life",
+        "Bluetooth 5.2",
+        "Memory Foam Cushions",
+        "USB-C Fast Charging",
+        "Multi-device Connection"
+      ],
+      "specifications": {
+        "Driver Size": "40mm",
+        "Frequency Response": "20Hz - 20kHz",
+        "Impedance": "32 Ohms",
+        "Weight": "250g"
+      },
+      "images": [
+        "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      ],
+      "thumbnail": "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "colors": ["White", "Black", "Navy"],
+      "tags": ["headphones", "wireless", "audio", "premium"]
+    },
+    {
+      "id": 2,
+      "name": "MacBook Pro 16-inch",
+      "slug": "macbook-pro-16",
+      "price": 2499.99,
+      "originalPrice": null,
+      "category": "electronics",
+      "brand": "Apple",
+      "rating": 4.9,
+      "reviews": 512,
+      "stock": 8,
+      "featured": true,
+      "new": false,
+      "description": "The most powerful MacBook Pro ever. With M3 Max chip, stunning Liquid Retina XDR display, and all-day battery life for professionals who demand the best.",
+      "features": [
+        "M3 Max Chip",
+        "36GB Unified Memory",
+        "1TB SSD Storage",
+        "Liquid Retina XDR Display",
+        "22-Hour Battery Life",
+        "MagSafe 3 Charging"
+      ],
+      "specifications": {
+        "Display": "16.2-inch Liquid Retina XDR",
+        "Processor": "Apple M3 Max",
+        "Memory": "36GB Unified",
+        "Storage": "1TB SSD"
+      },
+      "images": [
+        "https://images.pexels.com/photos/2657669/pexels-photo-2657669.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      ],
+      "thumbnail": "https://images.pexels.com/photos/2657669/pexels-photo-2657669.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "colors": ["Space Black", "Silver"],
+      "tags": ["laptop", "apple", "macbook", "professional"]
+    },
+    {
+      "id": 3,
+      "name": "Smart Tech Bundle",
+      "slug": "smart-tech-bundle",
+      "price": 899.99,
+      "originalPrice": 1199.99,
+      "category": "electronics",
+      "brand": "TechPro",
+      "rating": 4.7,
+      "reviews": 189,
+      "stock": 23,
+      "featured": true,
+      "new": true,
+      "description": "Complete your setup with our Smart Tech Bundle. Includes laptop stand, wireless charger, premium cables, and organizing accessories for the ultimate workspace.",
+      "features": [
+        "Ergonomic Laptop Stand",
+        "15W Wireless Charger",
+        "USB-C Hub",
+        "Cable Management Kit",
+        "Microfiber Cleaning Set",
+        "Premium Carry Case"
+      ],
+      "specifications": {
+        "Compatibility": "Universal",
+        "Charger Output": "15W Max",
+        "Hub Ports": "7-in-1",
+        "Material": "Aluminum Alloy"
+      },
+      "images": [
+        "https://images.pexels.com/photos/18311089/pexels-photo-18311089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      ],
+      "thumbnail": "https://images.pexels.com/photos/18311089/pexels-photo-18311089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "colors": ["Silver", "Black"],
+      "tags": ["bundle", "accessories", "workspace", "tech"]
+    },
+    {
+      "id": 4,
+      "name": "Elite Studio Headphones",
+      "slug": "elite-studio-headphones",
+      "price": 449.99,
+      "originalPrice": null,
+      "category": "electronics",
+      "brand": "AudioMax",
+      "rating": 4.9,
+      "reviews": 342,
+      "stock": 12,
+      "featured": false,
+      "new": false,
+      "description": "Professional-grade studio headphones designed for audio engineers, producers, and serious music enthusiasts. Uncompromising sound quality meets exceptional comfort.",
+      "features": [
+        "Studio-Grade Sound",
+        "Detachable Cable",
+        "Foldable Design",
+        "Premium Leather",
+        "Gold-Plated Connectors",
+        "Reference Sound Profile"
+      ],
+      "specifications": {
+        "Driver Size": "50mm",
+        "Frequency Response": "5Hz - 40kHz",
+        "Impedance": "64 Ohms",
+        "Weight": "285g"
+      },
+      "images": [
+        "https://images.pexels.com/photos/3394653/pexels-photo-3394653.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      ],
+      "thumbnail": "https://images.pexels.com/photos/3394653/pexels-photo-3394653.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "colors": ["White", "Black"],
+      "tags": ["headphones", "studio", "professional", "audio"]
+    },
+    {
+      "id": 5,
+      "name": "Minimalist Workspace Kit",
+      "slug": "minimalist-workspace-kit",
+      "price": 349.99,
+      "originalPrice": 449.99,
+      "category": "accessories",
+      "brand": "DeskCraft",
+      "rating": 4.6,
+      "reviews": 128,
+      "stock": 45,
+      "featured": true,
+      "new": false,
+      "description": "Transform your desk into a productivity paradise. This carefully curated workspace kit includes everything you need for a clean, organized, and inspiring work environment.",
+      "features": [
+        "Desk Organizer Set",
+        "Wireless Charging Pad",
+        "LED Desk Lamp",
+        "Cable Management Box",
+        "Leather Mouse Pad",
+        "Pen & Pencil Holder"
+      ],
+      "specifications": {
+        "Material": "Bamboo & Leather",
+        "Lamp Brightness": "3 Levels",
+        "Charger Output": "10W",
+        "Pad Size": "80x40cm"
+      },
+      "images": [
+        "https://images.pexels.com/photos/4533076/pexels-photo-4533076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      ],
+      "thumbnail": "https://images.pexels.com/photos/4533076/pexels-photo-4533076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "colors": ["Natural", "Walnut", "Black"],
+      "tags": ["workspace", "desk", "organizer", "minimalist"]
+    },
+    {
+      "id": 6,
+      "name": "Premium Sneakers Collection",
+      "slug": "premium-sneakers-collection",
+      "price": 189.99,
+      "originalPrice": 229.99,
+      "category": "fashion",
+      "brand": "StreetStyle",
+      "rating": 4.5,
+      "reviews": 423,
+      "stock": 67,
+      "featured": true,
+      "new": true,
+      "description": "Step up your style game with our Premium Sneakers Collection. Combining comfort, durability, and streetwear aesthetics for the modern fashion enthusiast.",
+      "features": [
+        "Premium Leather Upper",
+        "Memory Foam Insole",
+        "Durable Rubber Outsole",
+        "Breathable Lining",
+        "Reinforced Toe Box",
+        "Cushioned Collar"
+      ],
+      "specifications": {
+        "Upper Material": "Premium Leather",
+        "Sole Material": "Rubber",
+        "Closure": "Lace-up",
+        "Available Sizes": "US 6-13"
+      },
+      "images": [
+        "https://images.pexels.com/photos/2364580/pexels-photo-2364580.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      ],
+      "thumbnail": "https://images.pexels.com/photos/2364580/pexels-photo-2364580.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "colors": ["White", "Black", "Red", "Blue"],
+      "tags": ["sneakers", "shoes", "fashion", "streetwear"]
+    },
+    {
+      "id": 7,
+      "name": "Designer Denim Collection",
+      "slug": "designer-denim-collection",
+      "price": 149.99,
+      "originalPrice": null,
+      "category": "fashion",
+      "brand": "DenimCo",
+      "rating": 4.4,
+      "reviews": 287,
+      "stock": 89,
+      "featured": false,
+      "new": false,
+      "description": "Crafted from premium Japanese selvedge denim, our Designer Denim Collection offers timeless style with a modern fit. Perfect for any occasion.",
+      "features": [
+        "Japanese Selvedge Denim",
+        "Slim Fit Design",
+        "Reinforced Stitching",
+        "Classic 5-Pocket Style",
+        "Premium Hardware",
+        "Pre-washed Finish"
+      ],
+      "specifications": {
+        "Material": "100% Cotton Denim",
+        "Weight": "14oz",
+        "Fit": "Slim Straight",
+        "Rise": "Mid"
+      },
+      "images": [
+        "https://images.pexels.com/photos/18533668/pexels-photo-18533668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      ],
+      "thumbnail": "https://images.pexels.com/photos/18533668/pexels-photo-18533668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "colors": ["Indigo", "Black", "Light Wash"],
+      "tags": ["denim", "jeans", "fashion", "premium"]
+    },
+    {
+      "id": 8,
+      "name": "Smart Watch Pro",
+      "slug": "smart-watch-pro",
+      "price": 399.99,
+      "originalPrice": 499.99,
+      "category": "electronics",
+      "brand": "TechPro",
+      "rating": 4.7,
+      "reviews": 567,
+      "stock": 34,
+      "featured": true,
+      "new": true,
+      "description": "Stay connected and track your fitness with the Smart Watch Pro. Featuring advanced health monitoring, GPS, and a stunning always-on display.",
+      "features": [
+        "Always-On AMOLED Display",
+        "Heart Rate Monitoring",
+        "GPS & Cellular",
+        "5ATM Water Resistance",
+        "7-Day Battery Life",
+        "Sleep Tracking"
+      ],
+      "specifications": {
+        "Display": "1.4-inch AMOLED",
+        "Resolution": "454x454",
+        "Battery": "420mAh",
+        "Sensors": "Heart Rate, SpO2, Accelerometer"
+      },
+      "images": [
+        "https://images.pexels.com/photos/12880803/pexels-photo-12880803.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      ],
+      "thumbnail": "https://images.pexels.com/photos/12880803/pexels-photo-12880803.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "colors": ["Black", "Silver", "Gold"],
+      "tags": ["smartwatch", "wearable", "fitness", "health"]
+    },
+    {
+      "id": 9,
+      "name": "Urban Street Collection",
+      "slug": "urban-street-collection",
+      "price": 279.99,
+      "originalPrice": 349.99,
+      "category": "fashion",
+      "brand": "StreetStyle",
+      "rating": 4.6,
+      "reviews": 198,
+      "stock": 56,
+      "featured": false,
+      "new": true,
+      "description": "Express your individuality with our Urban Street Collection. Featuring bold designs, premium materials, and the perfect blend of comfort and style.",
+      "features": [
+        "Premium Cotton Blend",
+        "Oversized Fit",
+        "Screen Print Graphics",
+        "Ribbed Cuffs",
+        "Drop Shoulder Design",
+        "Limited Edition Prints"
+      ],
+      "specifications": {
+        "Material": "80% Cotton, 20% Polyester",
+        "Weight": "400gsm",
+        "Fit": "Oversized",
+        "Care": "Machine Washable"
+      },
+      "images": [
+        "https://images.pexels.com/photos/5771897/pexels-photo-5771897.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      ],
+      "thumbnail": "https://images.pexels.com/photos/5771897/pexels-photo-5771897.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "colors": ["Black", "White", "Grey"],
+      "tags": ["streetwear", "urban", "clothing", "collection"]
+    },
+    {
+      "id": 10,
+      "name": "Travel Tech Organizer",
+      "slug": "travel-tech-organizer",
+      "price": 79.99,
+      "originalPrice": 99.99,
+      "category": "accessories",
+      "brand": "DeskCraft",
+      "rating": 4.8,
+      "reviews": 445,
+      "stock": 123,
+      "featured": false,
+      "new": false,
+      "description": "Keep your tech organized on the go. Our Travel Tech Organizer features multiple compartments for cables, chargers, earbuds, and other essentials.",
+      "features": [
+        "Multiple Compartments",
+        "Water-Resistant Material",
+        "Elastic Cable Loops",
+        "Padded Device Pocket",
+        "Compact Design",
+        "YKK Zippers"
+      ],
+      "specifications": {
+        "Dimensions": "25x15x8cm",
+        "Material": "Ballistic Nylon",
+        "Weight": "180g",
+        "Compartments": "8"
+      },
+      "images": [
+        "https://images.pexels.com/photos/8346916/pexels-photo-8346916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      ],
+      "thumbnail": "https://images.pexels.com/photos/8346916/pexels-photo-8346916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "colors": ["Black", "Navy", "Grey"],
+      "tags": ["organizer", "travel", "accessories", "tech"]
+    },
+    {
+      "id": 11,
+      "name": "Premium Leather Boots",
+      "slug": "premium-leather-boots",
+      "price": 259.99,
+      "originalPrice": null,
+      "category": "fashion",
+      "brand": "Heritage",
+      "rating": 4.9,
+      "reviews": 312,
+      "stock": 28,
+      "featured": true,
+      "new": false,
+      "description": "Handcrafted from full-grain leather, these boots combine timeless style with exceptional durability. Perfect for any occasion, from casual to formal.",
+      "features": [
+        "Full-Grain Leather",
+        "Goodyear Welt Construction",
+        "Leather Insole",
+        "Vibram Sole",
+        "Hand-Stitched Details",
+        "Break-In Comfort"
+      ],
+      "specifications": {
+        "Upper": "Full-Grain Leather",
+        "Sole": "Vibram Rubber",
+        "Construction": "Goodyear Welt",
+        "Available Sizes": "US 7-13"
+      },
+      "images": [
+        "https://images.pexels.com/photos/27274316/pexels-photo-27274316.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      ],
+      "thumbnail": "https://images.pexels.com/photos/27274316/pexels-photo-27274316.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "colors": ["Black", "Brown", "Tan"],
+      "tags": ["boots", "leather", "fashion", "premium"]
+    },
+    {
+      "id": 12,
+      "name": "Productivity Journal Set",
+      "slug": "productivity-journal-set",
+      "price": 49.99,
+      "originalPrice": 69.99,
+      "category": "accessories",
+      "brand": "DeskCraft",
+      "rating": 4.5,
+      "reviews": 234,
+      "stock": 156,
+      "featured": false,
+      "new": true,
+      "description": "Boost your productivity with our premium journal set. Includes a dotted notebook, planner, and accessories designed for the modern professional.",
+      "features": [
+        "160gsm Premium Paper",
+        "Dotted Grid Layout",
+        "Lay-Flat Binding",
+        "Index & Numbered Pages",
+        "Ribbon Bookmarks",
+        "Pen Loop"
+      ],
+      "specifications": {
+        "Size": "A5 (148x210mm)",
+        "Pages": "192 Pages",
+        "Paper Weight": "160gsm",
+        "Cover": "Vegan Leather"
+      },
+      "images": [
+        "https://images.pexels.com/photos/20140155/pexels-photo-20140155.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      ],
+      "thumbnail": "https://images.pexels.com/photos/20140155/pexels-photo-20140155.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "colors": ["Black", "Navy", "Burgundy"],
+      "tags": ["journal", "notebook", "productivity", "stationery"]
+    }
+  ],
+  "categories": [
+    {
+      "id": "electronics",
+      "name": "Electronics",
+      "description": "Latest gadgets and tech accessories",
+      "icon": "laptop"
+    },
+    {
+      "id": "fashion",
+      "name": "Fashion",
+      "description": "Trendy clothing and footwear",
+      "icon": "shirt"
+    },
+    {
+      "id": "accessories",
+      "name": "Accessories",
+      "description": "Workspace and lifestyle accessories",
+      "icon": "briefcase"
+    }
+  ],
+  "brands": ["AudioMax", "Apple", "TechPro", "DeskCraft", "StreetStyle", "DenimCo", "Heritage"],
+  "heroImage": "https://images.pexels.com/photos/6803550/pexels-photo-6803550.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+}
